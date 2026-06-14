@@ -1,0 +1,31 @@
+URL (Uniform Resource Locator)
+The URL is the address of the resource being requested on the internet.
+It tells the browser where to send the request. For example, https://www.google.com 
+is the URL used to access Google's website.
+
+Request Method
+The request method tells the server what action the browser wants to perform.
+The most common method is GET, which requests data from the server. 
+Other methods include POST (send data), PUT (update data), and DELETE (remove data).
+
+Status Code
+A status code is a three-digit number returned by the server that indicates the 
+result of the request. For example, 200 OK means the request was successful, 
+while 404 Not Found means the requested page could not be found. 302 indicates that 
+a requested resource has been temporarily moved to a different URL, specified in
+the response's Location header
+
+Request Headers
+Request headers are additional information sent by the browser to the server
+along with the request. They may contain details about the browser, accepted 
+content types, language preferences, cookies, and other information needed by the server.
+
+Response Headers
+Response headers are additional information sent by the server back to the browser. 
+They describe the returned content, its size, server details, caching instructions,
+and other metadata about the response.
+
+Response Body
+The response body is the actual content returned by the server. It may contain HTML
+code for a webpage, JSON data for an application, images, videos, or other resources 
+requested by the browser.
